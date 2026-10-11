@@ -6846,6 +6846,8 @@ LRESULT CALLBACK BubbleProc(HWND h, UINT m, WPARAM w, LPARAM l) {
             return 0;
     }
     return DefWindowProcW(h, m, w, l);
+}
+
 // Thread da UI
 // ============================================================================
 
